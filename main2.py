@@ -108,10 +108,7 @@ def count_people():
     st.video(final_video_path)
 
 def main():
-    c1, c2 = st.columns([0.15, 0.85], gap='small')
-    with c1:
-        logo_img = Image.open(r"asset/Ernst-Young-Logo.png")
-        st.image(logo_img, use_column_width=True)
+    c1, c2 = st.columns([0.15, 0.85], gap='small'
     with c2:
         st.title('🚶‍♂️ People Counting')
         st.write('People Detection and Counting through Analytics.')
